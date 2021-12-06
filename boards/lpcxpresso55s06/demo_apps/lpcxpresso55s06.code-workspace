@@ -2,6 +2,24 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "..\\..\\..\\CMSIS"
+		},
+		{
+			"path": "..\\..\\..\\components"
+		},
+		{
+			"path": "..\\..\\..\\devices"
+		},
+		{
+			"path": "..\\..\\..\\middleware"
+		},
+		{
+			"path": "..\\..\\..\\rtos"
+		},
+		{
+			"path": "..\\project_template"
 		}
 	],
 	"settings": {}
