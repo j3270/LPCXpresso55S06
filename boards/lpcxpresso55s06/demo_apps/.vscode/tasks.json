@@ -1,0 +1,39 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "process",
+            "command": "${env:OZONE}",
+            "label": "Ozone led_blinky",
+            "args": [
+                "-device LPC55S06",
+                "-if SWD",
+                "-speed 4000",
+                "-usb",
+                "-project",
+                "${workspaceFolder}/led_blinky/armgcc/debug/led_blinky.jdebug",
+                "-programfile",
+                "${workspaceFolder}/led_blinky/armgcc/debug/led_blinky.elf"
+            ],
+            "problemMatcher": []
+        },
+        {
+            "type": "process",
+            "command": "${env:OZONE}",
+            "label": "Ozone shell",
+            "args": [
+                "-device LPC55S06",
+                "-if SWD",
+                "-speed 4000",
+                "-usb",
+                "-project",
+                "${workspaceFolder}/shell/armgcc/debug/shell.jdebug",
+                "-programfile",
+                "${workspaceFolder}/shell/armgcc/debug/shell.elf"
+            ],
+            "problemMatcher": []
+        }
+    ]
+}

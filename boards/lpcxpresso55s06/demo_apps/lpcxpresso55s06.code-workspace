@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\..\\..\\CMSIS"
+		},
+		{
+			"path": "..\\..\\..\\components"
+		},
+		{
+			"path": "..\\..\\..\\devices"
+		},
+		{
+			"path": "..\\..\\..\\middleware"
+		},
+		{
+			"path": "..\\..\\..\\rtos"
+		}
+	],
+	"settings": {}
+}

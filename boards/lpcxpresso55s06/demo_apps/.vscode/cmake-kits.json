@@ -1,0 +1,9 @@
+[
+    {
+        "name": "ARM-Cortex-M GCC 10.2.1 arm-none-eabi",
+        "toolchainFile": "${workspaceRoot}\\..\\..\\..\\tools\\cmake_toolchain_files\\armgcc_force_cpp.cmake",
+        "preferredGenerator": {
+            "name": "MinGW Makefiles"
+        }
+    }
+]

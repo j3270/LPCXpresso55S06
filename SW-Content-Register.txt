@@ -1,0 +1,353 @@
+Release Name: MCUXpresso Software Development Kit (SDK)
+Release Version: 2.10.1
+Package License: LA_OPT_NXP_Software_License.txt - Additional Distribution License granted, license in Section 2.3 applies
+
+SDK_Peripheral_Driver      Name: SDK Peripheral Driver                       
+                           Version: 2.x.x                                    
+                           Outgoing License: BSD-3-Clause                    
+                           License File: COPYING-BSD-3                       
+                           Format: source code                               
+                           Description: Peripheral drivers are designed for  
+                           the most common use cases identified for the      
+                           underlying hardware block.                        
+                           Location: devices/<device>/drivers                
+                           Origin: NXP (BSD-3-Clause)                        
+
+SDK_Examples               Name: SDK examples                                
+                           Version: NA                                       
+                           Outgoing License: BSD-3-Clause                    
+                           License File: COPYING-BSD-3                       
+                           Format: source code, binary, project files, linker
+                           files                                             
+                           Description: SDK out of box examples to show how  
+                           to use peripheral drivers and integrate           
+                           middleware.                                       
+                           Location: boards/<board>/                         
+                           Origin: NXP (BSD-3-Clause)                        
+
+SDK_Device                 Name: SDK SoC files                               
+                           Version: NA                                       
+                           Outgoing License: BSD-3-Clause                    
+                           License File: COPYING-BSD-3                       
+                           Format: source code, linker files                 
+                           Description: Device system files, template files, 
+                           IDE related startup and linker files.             
+                           Location: devices/<device>/                       
+                           Origin: NXP (BSD-3-Clause)                        
+
+cmsis                      Name: CMSIS                                       
+                           Version: 5.6.0                                    
+                           Outgoing License: Apache License 2.0              
+                           License File: CMSIS/LICENSE.txt                   
+                           Format: source code                               
+                           Description: Vendor-independent hardware          
+                           abstraction layer for microcontrollers that are   
+                           based on Arm Cortex processors, distributed by    
+                           ARM. cores                                        
+                           Location: CMSIS/                                  
+                           Origin: ARM (Apache-2.0) -                        
+                           https://github.com/ARM-software/CMSIS_5/releases/t
+                           ag/5.6.0                                          
+
+cmsis_gpio                 Name: CMSIS GPIO Interface                        
+                           Version: 2.0.0                                    
+                           Outgoing License: BSD-3-Clause                    
+                           License File: COPYING-BSD-3                       
+                           Format: source code                               
+                           Description: CMSIS Driver style GPIO interface    
+                           definition created by NXP.                        
+                           Location: CMSIS/Driver/Include/Driver_GPIO.h      
+                           Origin: NXP (BSD-3-Clause)                        
+
+SDK_Components             Name: SDK components and board peripheral drivers 
+                           Version: NA                                       
+                           Outgoing License: BSD-3-Clause                    
+                           License File: COPYING-BSD-3                       
+                           Format: source code                               
+                           Description: SDK components and board peripheral  
+                           drivers, for example, flash and codec drivers.    
+                           Location: components/                             
+                           Origin: NXP (BSD-3-Clause)                        
+
+usb                        Name: USB                                         
+                           Version: 2.8.0                                    
+                           Outgoing License: BSD-3-Clause                    
+                           License File: COPYING-BSD-3                       
+                           Format: source code                               
+                           Description: NXP USB stack. This is a version of  
+                           the USB stack that has been integrated with the   
+                           MCUXpresso SDK.                                   
+                           Location: middleware/usb                          
+                           Origin: NXP (BSD-3-Clause)                        
+
+issdk                      Name: ISSDK                                       
+                           Version: 1.7                                      
+                           Outgoing License: BSD-3-Clause                    
+                           License File: COPYING-BSD-3                       
+                           Format: source code                               
+                           Description: NXP IoT Sensing SDK. It combines a   
+                           set of robust Sensor Drivers and Algorithms along 
+                           with example applications.                        
+                           Location: middleware/issdk                        
+                           Origin: NXP (BSD-3-Clause)                        
+
+freertos                   Name: FreeRTOS                                    
+                           Version: 202012.00.0                              
+                           Outgoing License: MIT                             
+                           License File: rtos/freertos/LICENSE               
+                           Format: source code                               
+                           Description: IoT operating system for             
+                           microcontrollers                                  
+                           Location: rtos/freertos                           
+                           Origin: Real Time Engineers, Ltd. (MIT)           
+                           Url: https://aws.amazon.com/freertos/             
+
+fatfs                      Name: FatFs                                       
+                           Version: 0.14a                                    
+                           Outgoing License: FatFs License                   
+                           License File: middleware/fatfs/LICENSE.txt        
+                           Format: source code                               
+                           Description: Generic FAT file system for small    
+                           embedded devices.                                 
+                           Location: middleware/fatfs                        
+                           Origin: Electronic Lives Mfg. by ChaN of Ageo     
+                           city, Japan (FatFs License)                       
+                           Approved open source license: Yes                 
+                           Url: http://elm-chan.org/fsw/ff/00index_e.html    
+
+mbedtls                    Name: Mbed TLS                                    
+                           Version: 2.26.0                                   
+                           Outgoing License: Apache-2.0                      
+                           License File: middleware/mbedtls/LICENSE          
+                           Format: source code                               
+                           Description: Cryptographic and SSL/TLS Library    
+                           Location: middleware/mbedtls                      
+                           Origin: ARM(Apache-2.0) -                         
+                           https://github.com/ARMmbed/mbedtls/releases/tag/v2
+                           .26.0                                             
+
+cmsis_drivers              Name: SDK CMSIS Peripheral Drivers                
+                           Version: 2.x.x                                    
+                           Outgoing License: Apache License 2.0              
+                           License File: CMSIS/LICENSE.txt                   
+                           Format: source code                               
+                           Description: CMSIS Peripheral drivers are designed
+                           to provide hardware independent APIs which make   
+                           application reusable across a wide range of       
+                           supported microcontroller devices.                
+                           Location: devices/<device>/cmsis_drivers          
+                           Origin: NXP (Apache License 2.0)                  
+
+emwin                      Name: emWin                                       
+                           Version: 6.16                                     
+                           Outgoing License: LA_OPT_NXP_Software_License.txt 
+                           - Additional distribution license granted -       
+                           License in Section 2.3 applies                    
+                           License File: LA_OPT_NXP_Software_License.txt     
+                           Format: Precompiled libraries, header files       
+                           Description: emWin graphics library               
+                           Location: middleware/emwin                        
+                           Origin: SEGGER Microcontroller Systems LLC        
+                           (Proprietary)                                     
+                           Url:                                              
+                           http://www.nxp.com/pages/emwin-graphics-library:EM
+                           WIN-GRAPHICS-LIBRARY                              
+
+freemaster                 Name: FreeMASTER                                  
+                           Version: 3.0.4                                    
+                           Outgoing License: LA_OPT_NXP_Software_License.txt 
+                           - Additional distribution license granted -       
+                           License in Section 2.3 applies                    
+                           License File:                                     
+                           middleware/freemaster/LA_OPT_NXP_Software_License.
+                           txt                                               
+                           Format: source code & header files                
+                           Description: FreeMASTER communication driver      
+                           Location: middleware/freemaster/src               
+                           Origin: NXP                                       
+
+freemaster-examples        Name: FreeMASTER                                  
+                           Version: 3.0.4                                    
+                           Outgoing License: BSD-3-Clause                    
+                           License File: COPYING-BSD-3                       
+                           Format: source code & header files                
+                           Description: FreeMASTER example applications      
+                           Location: boards/<board>/freemaster_examples      
+                           Origin: NXP                                       
+
+littlevgl                  Name: LittlevGL                                   
+                           Version: 7.10.1                                   
+                           Outgoing License: MIT                             
+                           License File:                                     
+                           middleware/littlevgl/lvgl/LICENSE.txt             
+                           Format: source code                               
+                           Description: littlevgl graphics library           
+                           Location: middleware/littlevgl                    
+                           Origin: Gabor Kiss-Vamosi                         
+                           Url: https://github.com/lvgl/lvgl                 
+
+canopen                    Name: EmSA CANopen (FD) Libraries                 
+                           Version: 7.1.0                                    
+                           Outgoing License: Modified BSD                    
+                           License File: middleware/canopen/LICENSE.INFO     
+                           Format: library, source code, header files        
+                           Description: EmSA CANopen (FD) Libraries for NXP  
+                           SDKs                                              
+                           Location: middleware/canopen                      
+                           Origin: EmSA                                      
+
+azure_rtos_threadx         Name: Azure RTOS ThreadX                          
+                           Version: 6.1.2                                    
+                           Outgoing License: LA_OPT_NXP_Software_License.txt 
+                           - Additional distribution license granted -       
+                           License in Section 2.3 applies                    
+                           License File: LA_OPT_NXP_Software_License.txt     
+                           Format: source code                               
+                           Description: RTOS kernel for microcontrollers     
+                           Location: rtos/azure-rtos/threadx                 
+                           Origin: Microsoft                                 
+                           Url:                                              
+                           https://azure.microsoft.com/en-us/services/rtos/  
+
+azure_rtos_filex           Name: Azure RTOS FileX                            
+                           Version: 6.1.2                                    
+                           Outgoing License: LA_OPT_NXP_Software_License.txt 
+                           - Additional distribution license granted -       
+                           License in Section 2.3 applies                    
+                           License File: LA_OPT_NXP_Software_License.txt     
+                           Format: source code                               
+                           Description: file system                          
+                           Location: rtos/azure-rtos/filex                   
+                           Origin: Microsoft                                 
+                           Url:                                              
+                           https://azure.microsoft.com/en-us/services/rtos/  
+
+azure_rtos_levelx          Name: Azure RTOS LevelX                           
+                           Version: 6.1.2                                    
+                           Outgoing License: LA_OPT_NXP_Software_License.txt 
+                           - Additional distribution license granted -       
+                           License in Section 2.3 applies                    
+                           License File: LA_OPT_NXP_Software_License.txt     
+                           Format: source code                               
+                           Description: NAND and NOR flash wear leveling     
+                           facilities for embedded applications              
+                           Location: rtos/azure-rtos/levelx                  
+                           Origin: Microsoft                                 
+                           Url:                                              
+                           https://azure.microsoft.com/en-us/services/rtos/  
+
+azure_rtos_netxduo         Name: Azure RTOS NetX Duo                         
+                           Version: 6.1.2                                    
+                           Outgoing License: LA_OPT_NXP_Software_License.txt 
+                           - Additional distribution license granted -       
+                           License in Section 2.3 applies                    
+                           License File: LA_OPT_NXP_Software_License.txt     
+                           Format: source code                               
+                           Description: advanced, industrial-grade TCP/IP    
+                           network stack                                     
+                           Location: rtos/azure-rtos/netxduo                 
+                           Origin: Microsoft                                 
+                           Url:                                              
+                           https://azure.microsoft.com/en-us/services/rtos/  
+
+azure_rtos_guix            Name: Azure RTOS GUIX                             
+                           Version: 6.1.2                                    
+                           Outgoing License: LA_OPT_NXP_Software_License.txt 
+                           - Additional distribution license granted -       
+                           License in Section 2.3 applies                    
+                           License File: LA_OPT_NXP_Software_License.txt     
+                           Format: source code                               
+                           Description: advanced, industrial-grade GUI       
+                           solution                                          
+                           Location: rtos/azure-rtos/guix                    
+                           Origin: Microsoft                                 
+                           Url:                                              
+                           https://azure.microsoft.com/en-us/services/rtos/  
+
+azure_rtos_usbx            Name: Azure RTOS USBX                             
+                           Version: 6.1.6                                    
+                           Outgoing License: LA_OPT_NXP_Software_License.txt 
+                           - Additional distribution license granted -       
+                           License in Section 2.3 applies                    
+                           License File: LA_OPT_NXP_Software_License.txt     
+                           Format: source code                               
+                           Description: A high-performance USB host and      
+                           device embedded stack                             
+                           Location: rtos/azure-rtos/usbx                    
+                           Origin: Microsoft                                 
+                           Url:                                              
+                           https://azure.microsoft.com/en-us/services/rtos/  
+
+tfm                        Name: tfm                                         
+                           Version: 1.3                                      
+                           Outgoing License: BSD-3-Clause                    
+                           License File: COPYING-BSD-3                       
+                           Format: source code                               
+                           Description: Trusted Firmware M                   
+                           Location: middleware/tfm/tf-m                     
+                           Origin: Arm (BSD-3-Clause) -                      
+                           https://git.trustedfirmware.org/TF-M/trusted-firmw
+                           are-m.git                                         
+
+tfm_tests                  Name: tfm_tests                                   
+                           Version: 1.3                                      
+                           Outgoing License: BSD-3-Clause                    
+                           License File: COPYING-BSD-3                       
+                           Format: source code                               
+                           Description: Trusted Firmware M Tests             
+                           Location: middleware/tfm/tf-m-tests               
+                           Origin: Arm (BSD-3-Clause) -                      
+                           https://git.trustedfirmware.org/TF-M/tf-m-tests.gi
+                           t                                                 
+
+tfm_qcbor                  Name: tfm_qcbor                                   
+                           Version: 1.3                                      
+                           Outgoing License: BSD-3-Clause                    
+                           License File: COPYING-BSD-3                       
+                           Format: source code                               
+                           Description: QCBOR encodes and decodes RFC 7049   
+                           CBOR                                              
+                           Location: middleware/tfm/tf-m/lib/ext/qcbor       
+                           Origin: Laurence Lundblade (BSD-3-Clause) -       
+                           https://github.com/laurencelundblade/QCBOR        
+
+tfm_t_cose                 Name: tfm_t_cose                                  
+                           Version: 1.3                                      
+                           Outgoing License: BSD-3-Clause                    
+                           License File: COPYING-BSD-3                       
+                           Format: source code                               
+                           Description: t_cose is a partial implementation of
+                           the COSE standard (RFC 8152)                      
+                           Location: middleware/tfm/tf-m/lib/ext/t_cose      
+                           Origin: Laurence Lundblade (BSD-3-Clause)         
+
+psatest                    Name: PSA Test Suite                              
+                           Version: 1.1                                      
+                           Outgoing License: Apache-2.0                      
+                           License File:                                     
+                           middleware/tfm/psa-arch-tests/LICENSE.md          
+                           Format: source code                               
+                           Description: Arm Platform Security Architecture   
+                           Test Suite                                        
+                           Location: middleware/tfm/psa-arch-tests           
+                           Origin: ARM(Apache-2.0) -                         
+                           https://github.com/ARM-software/psa-arch-tests    
+
+mbed-crypto                Name: Mbed Crypto library                         
+                           Version: 2.25.0                                   
+                           Outgoing License: Apache-2.0                      
+                           License File: middleware/tfm/mbed-crypto/LICENSE  
+                           Format: source code                               
+                           Description: Cryptographic Library                
+                           Location: middleware/tfm/mbed-crypto              
+                           Origin: ARM(Apache-2.0) -                         
+                           https://github.com/ARMmbed/mbedtls                
+
+ntag_i2c_plus              Name: NTAG I2C plus                               
+                           Version: 1.0.0                                    
+                           Outgoing License: BSD-3-Clause                    
+                           License File: COPYING-BSD-3                       
+                           Format: source code                               
+                           Description: NTAG I2C plus communication library  
+                           Location: middleware/ntag_i2c_plus                
+                           Origin: NXP (BSD-3-Clause)                        

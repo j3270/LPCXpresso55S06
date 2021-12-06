@@ -1,0 +1,16 @@
+
+OpenDocument="led_blinky.jdebug", FilePath="C:/Users/jordanj/Documents/ARM/NXP/SDK_2_10_1_LPCXpresso55S06/boards/lpcxpresso55s06/demo_apps/led_blinky/armgcc/debug/led_blinky.jdebug", Line=0
+OpenDocument="led_blinky.c", FilePath="C:/Users/jordanj/Documents/ARM/NXP/SDK_2_10_1_LPCXpresso55S06/boards/lpcxpresso55s06/demo_apps/led_blinky/led_blinky.c", Line=0
+OpenToolbar="Debug", Floating=0, x=0, y=0
+OpenWindow="Registers 1", DockArea=RIGHT, x=0, y=2, w=687, h=470, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, FilteredItems=[], RefreshRate=1
+OpenWindow="Memory 1", DockArea=BOTTOM, x=2, y=0, w=671, h=135, TabPos=1, TopOfStack=0, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, EditorAddress=0x100028F0
+OpenWindow="Watched Data 1", DockArea=RIGHT, x=0, y=0, w=687, h=144, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Call Graph", DockArea=RIGHT, x=0, y=1, w=687, h=165, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Terminal", DockArea=BOTTOM, x=1, y=0, w=599, h=157, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Find Results", DockArea=BOTTOM, x=0, y=0, w=648, h=157, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Console", DockArea=BOTTOM, x=2, y=0, w=671, h=135, TabPos=0, TopOfStack=1, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+TableHeader="Call Graph", SortCol="Stack Total", SortOrder="DESCENDING", VisibleCols=["Name";"Stack Total";"Stack Local";"Called From";"Call Site PC"], ColWidths=[206;114;116;113;121]
+TableHeader="Power Sampling", SortCol="Index", SortOrder="ASCENDING", VisibleCols=["Index";"Time";"Ch 0"], ColWidths=[100;100;100]
+TableHeader="Registers 1", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Description"], ColWidths=[194;144;332]
+TableHeader="Watched Data 1", SortCol="Expression", SortOrder="ASCENDING", VisibleCols=["Expression";"Value";"Location";"Refresh"], ColWidths=[183;100;100;304]
+TableHeader="RegisterSelectionDialog", SortCol="None", SortOrder="ASCENDING", VisibleCols=[], ColWidths=[]
