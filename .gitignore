@@ -12,3 +12,4 @@ _deps
 
 #Ignore build folder from demo apps
 **/build
+*.elf
